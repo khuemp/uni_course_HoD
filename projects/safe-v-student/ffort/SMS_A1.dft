@@ -1,0 +1,18 @@
+toplevel "System";
+"System" or "TAF" "BAF" "MLF" "BHF" "HF" "LHF";
+"TAF" or "TAFc";
+"BAF" or "BAFac";
+"MLF" or "MLFac";
+"BHF" or "BHFac";
+"HF" or "HFship" "HFland";
+"BAFac" or "BAFacN" "BAFacS" "BAFacE" "BAFacW";
+"LHF" prob=1.73e-5;
+"TAFc" prob=4.20e-3;
+"MLFac" prob=9.31e-3;
+"BHFac" prob=8.64e-3;
+"HFship" prob=8.95e-6;
+"HFland" prob=8.95e-6;
+"BAFacN" prob=9.93e-5;
+"BAFacS" prob=4.37e-5;
+"BAFacE" prob=5.46e-8;
+"BAFacW" prob=4.17e-3;

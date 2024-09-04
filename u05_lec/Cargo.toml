@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "format_bin",
+    "format_lib"
+]

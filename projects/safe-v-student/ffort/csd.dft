@@ -1,0 +1,11 @@
+toplevel "System";
+"System" or "CommonCauseSealFailure" "SealsFailIndependently";
+"CommonCauseSealFailure" and "ContaminationTapeFails" "CommonCauseSealFailureBE";
+"SealsFailIndependently" and "Metal-To-MetalSealFails" "CompressionSealFailure" "FusedPlugFails";
+"CompressionSealFailure" and "CompressionSeal1Fails" "CompressionSeal2Fails";
+"ContaminationTapeFails" prob=1.0e-1;
+"CommonCauseSealFailureBE" prob=1.0e-5;
+"Metal-To-MetalSealFails" prob=1.0e-3;
+"FusedPlugFails" prob=1.0e-3;
+"CompressionSeal1Fails" prob=1.0e-3;
+"CompressionSeal2Fails" prob=1.0e-3;

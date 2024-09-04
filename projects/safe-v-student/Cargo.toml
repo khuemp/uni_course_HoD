@@ -1,0 +1,10 @@
+[package]
+name = "safe-v"
+version = "0.1.0"
+authors = ["Andreas Schmidt <lehre@netzdoktor.eu>"]
+edition = "2021"
+
+[dependencies]
+prettytable-rs = "^0.10"
+uom = { version = "0.33.0", default-features = false, features = [ "rational64", "si"]}
+walkdir = "2"

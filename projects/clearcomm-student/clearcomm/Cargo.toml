@@ -1,0 +1,15 @@
+[package]
+name = "clearcomm"
+version = "0.1.0"
+authors = ["Andreas Schmidt <lehre@netzdoktor.eu>"]
+edition = "2021"
+
+[dependencies]
+async-std = { version = "1.12.0", features = ["attributes", "unstable"] }
+color-eyre = "0.6.2"
+num-format = "0.4.0"
+prettytable-rs = "0.10.0"
+rand = "0.8.5"
+structopt = "0.3.26"
+proc-macro2 = "1.0.66"                                                    # enforce to avoid nightly bugs
+log = "0.4.20"                                                            # enforce to avoid nightly bugs

@@ -1,0 +1,16 @@
+[package]
+name = "cleanav"
+version = "0.3.0"
+authors = ["Andreas Schmidt <lehre@netzdoktor.eu>"]
+edition = "2021"
+description = "A Cleaning Autonomous Vessel Simulation"
+
+[dependencies]
+clap = { version = "4.4.1", features = ["derive"] }
+nalgebra = "0.32.3"
+
+[dev-dependencies]
+assert_cmd = "2.0"
+predicates = "2.1"
+proptest = "1.0.0"
+assert_approx_eq = "1.1.0"
